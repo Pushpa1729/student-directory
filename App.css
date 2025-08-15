@@ -1,0 +1,38 @@
+/* Solid background */
+.app {
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading style */
+.heading {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Card container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* Student card */
+.student-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  width: 180px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+/* Clicked card color */
+.student-card.clicked {
+  background-color: #ffd166;
+}
